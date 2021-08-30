@@ -140,7 +140,9 @@ h2 {
 @media screen and (min-width: 920px) {
   .nav__open, .nav__close {
     display: none; } }
-
+img {
+  position: relative;
+}
 .promo {
   max-width: 270px;
   margin: 0 auto;
@@ -195,10 +197,8 @@ h2 {
 .article_link_blog {
   position: absolute;
   display: block;
-  left: 188px;
-  top: 300px;
-  width: 550px;
-  height: 350px; }
+  width: 555px;
+  height: 341px; }
 
 @media screen and (max-width: 700px) {
   .article {
@@ -251,6 +251,12 @@ h2 {
 
 button {
   cursor: pointer; }
+
+.link_to_project {
+  text-decoration: none;
+  color: #e2b714;
+  font-weight: 500;
+}
 
 .btn {
   padding: 11px 30px;

@@ -1,0 +1,23 @@
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: #ccc;
+  border-radius: 1000px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-fill-primary {
+  background: #FE5F1E;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  background: none;
+  color: #FE5F1E;
+  border: 1px solid #FE5F1E;
+}

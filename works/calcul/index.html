@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Main page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="calculator">
+        <div class="wrap-calc">
+          <div class="row">
+            <div class="col"><b> Выберите ориентацию</b>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="orientation" value="100" checked=""><span> 20x30</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="orientation" value="150"><span> 15x20</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="orientation" value="160"><span> 20x15</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="orientation" value="170"><span> 20x20</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="orientation" value="180"><span> 15x15</span>
+                </label>
+              </div>
+            </div>
+            <div class="col"><b> Дизайн</b>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="design" value="100" checked=""><span> Готовая тема</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="design" value="150"><span> Простой дизайн</span>
+                </label>
+              </div>
+              <div class="form-group">          
+                <label>
+                  <input type="radio" name="design" value="300"><span> Индивидуальный дизайн</span>
+                </label>
+              </div>
+            </div>
+            <div class="col"><b> Дополнительные парамертры</b>
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="dops" value="1000" checked=""><span> Кожаная обложка</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="dops" value="1500"><span>Золотой срез</span>
+                </label>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="dops" value="3000"><span>Фоторамка</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="slidecontainer"><span>Количество страниц</span>
+            <input class="slider" type="range" name="pages" min="6" max="30" value="10">
+          </div>
+          <div class="button_span"><span>Итого</span><span class="money">0</span><span>сом</span>
+            <button id="btn-submit">Заказать фото-книгу</button>
+          </div>
+        </div>
+      </form>
+    </div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/index.js"> </script>
+  </body>
+</html>

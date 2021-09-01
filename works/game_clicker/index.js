@@ -28,7 +28,7 @@ function startGame() {
   // $timeHeader.classList.remove('hide')
   $gameTime.setAttribute('disabled','true')
   $gameTime.setAttribute('disabled','false')
-  // mySong.play();
+  mySong.play();
 }
 
 function endGame(){

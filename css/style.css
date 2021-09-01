@@ -256,6 +256,7 @@ button {
   text-decoration: none;
   color: #e2b714;
   font-weight: 500;
+  display: block;
 }
 
 .btn {

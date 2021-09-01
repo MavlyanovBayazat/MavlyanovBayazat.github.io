@@ -47,22 +47,26 @@
     <div class="modal">
       <div class="modal-overlay"></div>
       <div class="modal-content">
-        <form class="settings-form js-settingsForm" action="/" id="uniq">
+        <form class="settings-form js-settingsForm" action="/">
+          <div class="form-group">
+            <label>Pomodoro</label>
+            <input class="form-control" id="pomodoro" type="number" value="">
+          </div>
           <div class="form-group">
             <label>Shork Break</label>
-            <input class="form-control" type="number" value="" id="pomidor">
+            <input class="form-control" id="short-break" type="number" value="">
           </div>
           <div class="form-group">
             <label>Long Break</label>
-            <input class="form-control" type="number" value="" id="vremyaDolgogo">
+            <input class="form-control" id="long-break" type="number" value="">
           </div>
           <div class="form-group">
             <label>Number of pomodoro between long break</label>
-            <input class="form-control" type="number" value="" id="razyDolgogo">
+            <input class="form-control" id="period" type="number" value="">
           </div>
           <div class="controls">
             <button class="btn js-modalHide" type="button">Close</button>
-            <button class="btn saveBtn" type="submit" id="pBtn"> Save</button>
+            <button class="btn" type="submit">Save</button>
           </div>
         </form>
       </div>
